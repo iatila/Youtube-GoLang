@@ -31,7 +31,6 @@
 <body>
 <div class="container">
     <div id="alert-container" class="alert-container">
-        <!-- Uyarı mesajları buraya eklenecek -->
     </div>
 
     <div class="col-md-6">
@@ -45,7 +44,6 @@
     </div>
 </div>
 
-<!-- İndirme ve Dönüştürme Animasyonları -->
 <div id="spinner-container" class="spinner-container">
     <div class="spinner-border text-primary" role="status">
         <span class="visually-hidden">Yükleniyor...</span>
@@ -58,7 +56,7 @@
 
 <script>
     document.getElementById('downloadForm').addEventListener('submit', function(event) {
-        event.preventDefault(); // Formun varsayılan davranışını engelle
+        event.preventDefault(); 
 
         const form = document.getElementById('downloadForm');
         const formData = new FormData(form);
