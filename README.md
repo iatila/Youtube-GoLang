@@ -23,6 +23,6 @@ Bu proje, bir YouTube video URL'si sağlayarak videoyu indirmenizi ve MP3 format
 
 2. **Proje Dosyalarını İndirin**:
    ```bash
-   git clone [[https://github.com/iatila/Youtube-GoLang.git]
+   git clone https://github.com/iatila/Youtube-GoLang.git
    cd Youtube-GoLang
 
